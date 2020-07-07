@@ -3,40 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio - Ricardo Ribeiro</title>
+    <title>Meu Portifólio - Ricardo Ribeiro</title>
+    <style>
+        * {
+            font-family: Cambria, Cochin,sans-serif;
+            /* text-align: center */
+        }
+
+        body {
+            background-color: #6A7062;
+            color: #CCD0C8;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #E9EAEC;
+        }
+
+        .texto-destaque{
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        .button{
+            background-color: #CCD0C8;
+            box-shadow: none;
+            font-family: Roboto, sans-serif;
+            color: #001a1a;
+            font-size: 16px;
+            font-weight: 500;
+            display: flex;
+            width: 197px;
+            height: 48px;
+            margin-bottom: 0px;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 5px;
+            line-height: 17px;
+            text-align: center;
+            cursor: pointer;
+            padding: 6px 8px;
+            border: 0;
+            text-decoration: none;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Portifólio</h1>
-    <br><br><br>
+    <h1 >Meu Portifólio</h1>
     <img id="MinhaFoto" src="images/ricardo.jpeg" alt="Foto de Ricardo Ribeiro" width="200px">
     <h2>Ricardo Alexandre de Souza Ribeiro</h2>
+    <br>
     <ol>
         <li> <a href="#Info"  >Minhas informações</a> </li> 
         <li> <a href="#Habil" >Minhas habilidades</a> </li> 
         <li> <a href="#Hobby" >Meus hobbies</a> </li> 
     </ol>
-    <br><br>
+    <br>
+    <hr>
+    <br>
     <h3 id="Info" >Minhas informações</h3>
     <p>
         <ul>
-            <li>Sou Brasileiro e moro em Natal/RN.</li>
-            <li>Sou casado e tenho dois filhos.</li>
+            <li class="texto-destaque">Sou Brasileiro e moro em Natal/RN.</li>
+            <li class="texto-destaque">Sou casado e tenho dois filhos.</li>
             <li>Atualmente estou fazendo um curso de Desenvolvimento de Software na <strong>Trybe</strong>.</li>
             <li>A Trybe possui uma metodologia de ensino que provoca uma experiência real de trabalho com muitos projetos em equipe.</li>
             <li>A Trybe valoriza tanto a parte técnica como a comportamental de cada aluno. </li>
         </ul>
     </p>
-    <br><br><br>
+    <br><br>
 
     <h3 id="Habil" >Minhas habilidades</h3>
     <p>
         <ul>
-            <li>Facilidade em lógica de programação.</li>
-            <li>Gosto de trabalhar em equipe.<br></li>
-            <li>Interesse em aprender novas linguas como <strong>Inglês e Françês</strong>.</li>
+            <li>Tenho facilidade em lógica de programação.</li>
+            <li>Sou uma pessoa criativa</li>
+            <li>Gosto de trabalhar de forma colaborativa.<br></li>
+            <li>Sou uma pessoa paciente e esforçada.</li>
+            <li>Tenho interesse em aprender novas linguas como <strong>Inglês e Françês</strong>.</li>
         </ul>
     </p>
-    <br><br><br>
+    <br><br>
 
     <h3 id="Hobby" >Meus hobbies</h3>
     <p>
@@ -46,10 +93,8 @@
         <li>Pedalar com amigos.</li> 
     </p>
 
-    <br><br>
-    <a href="#MinhaFoto">Veja minha Foto</a>
-
-    
+    <br>
+    <a href="#MinhaFoto" class="button">Veja minha Foto</a>
 
 </body>
 </html>
