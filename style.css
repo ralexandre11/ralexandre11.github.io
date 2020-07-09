@@ -2,7 +2,8 @@
 * {
 
      font-family: Cambria, Cochin,sans-serif;
-     /* text-align: center */
+     padding: 0;
+     margin: 0;
  }  
 
  h1, h2 {
@@ -23,6 +24,7 @@ h3 {
     font-weight: bold;
     font-size: 24px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 li {
@@ -55,12 +57,18 @@ li {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 20px;
-
+    padding: 40px;
 }
 
  .texto-destaque{
      font-weight: bold;
+ }
+
+ .rodape{
+    background-color: #434C45;
+    height: 80px;
+    padding: 10px;
+    margin: 0px;
  }
 
  .button{
